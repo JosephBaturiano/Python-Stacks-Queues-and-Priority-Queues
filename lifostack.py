@@ -5,3 +5,5 @@ print("Nos of stack:", len(lifo))
 
 for element in lifo:
     print(element)
+
+print("Current number of stack:", len(lifo))
