@@ -1,4 +1,4 @@
-from fifthqueues import PriorityQueue
+from sixthqueues import PriorityQueue
 from dataclasses import dataclass
 
 CRITICAL = 3
@@ -13,3 +13,5 @@ class Message:
 
 wipers = Message("Windshield wipers turned on")
 hazard_lights = Message("Hazard lights turned on")
+
+wipers < hazard_lights
