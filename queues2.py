@@ -5,3 +5,5 @@ print("In queue:", len(fifo))
 
 for element in fifo:
     print(element)
+
+print("Current queues:", len(fifo))
