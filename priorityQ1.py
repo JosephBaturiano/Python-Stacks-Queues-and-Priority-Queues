@@ -1,4 +1,4 @@
-from queues import PriorityQueue
+from fifthqueues import PriorityQueue
 
 CRITICAL = 3
 IMPORTANT = 2
