@@ -2,5 +2,5 @@ from graph4 import City, load_graph
 
 nodes, graph = load_graph("roadmap.dot", City.from_dict)
 
-for neighbor, weights in graph[nodes["london"]].items():
-    print(weights["distance"], neighbor.name)
+for neighbor in graph.neighbors(nodes["london"]):
+    print(neighbor.name)
